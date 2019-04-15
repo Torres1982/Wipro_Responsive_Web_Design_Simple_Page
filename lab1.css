@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+	color: red;
+}
+
+#section-one {
+	background-color: cyan;
+}
+
+#section-two {
+	background-color: yellow;
+}
+
+#section-three {
+	background-color: lightgray;
+}
+
+#section-four {
+	background-color: bisque;
+}
+
+#section-five {
+	background-color: lightgreen;
+	
+}
+
+#section-two ul {
+	list-style: none;
+}
+
+#section-two ul li a {
+	text-decoration: none;
+}
+
+.row {
+	display: flex;
+}
+
+#section-one,
+#section-two,
+#section-three,
+#section-four,
+#section-five {
+	border: 1px solid red;
+	padding: 5px;
+	text-align: justify;
+	margin-bottom: 2px;
+}
